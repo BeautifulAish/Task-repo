@@ -1,1 +1,38 @@
+# Write a program that calculates and displays the letter grade for a given numerical score
+Numerical
+score = int(input("Enter the number \n"))
+
+If
+score >= 90 and <= 100
+print("Grade A")
+elif score >= 80 and <= 89
+print("Grade B")
+elif score >= 70 and <= 79
+print("Grade C")
+elif score > 60 and <= 69
+print("Grade D")
+else score >= 0 and <= 59
+print("valid input")
+
+# Create a program that determines whether a given year is a leap year.
+year =2024
+is_leap_year = False
+if (year % 4 == 0 and year % 100!= 0)or (year % 400 ==0):
+  is_leap_year =True
+else is leap year = False
+
+ print(if"{year}is {_leap_year}")
+
+#Write a program that classifies a triangle based on its side lengths.
+
+side1 = float(input("Enter length of side1: "))
+side2 = float(input("Enter length of side2: "))
+side3 = float(input("Enter length of side3: "))
+
+if side1 == side2 == side3 :
+    print ("The triangle is equilateral")
+elif side1 == side2 or side2 == side3 or side1 == side3 :
+    print("The triangle is Isosceles")
+else :
+    print("The triangle is scalene")
 
