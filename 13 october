@@ -1,0 +1,43 @@
+# Difference between = and == operator
+The '=' is a simple assignment operator. It assigns values from right side operands to the left side operand
+While on the other hand '==' checks if the values of two operands are equal or not.
+ex: a=10, #The value 10 will be stored in the integer variable a
+(a==10): #This checks if the values of two operands are equal or not.
+
+#. What does the ** operator do in Python, What does the ** operator do in Python
+ex: 3**3 - 27
+
+#. What does the ^ operator do in Python
+ IT is a bitwise XOR operator,  It performs a bitwise XOR operation on the binary representations of two numbers.
+It will take binary values and execute XOR operation
+x=3
+y=5
+
+Task 2
+#  Write a Python program to calculate the area of a circle given its radius using the formula
+area=π×r^2 ( Take pi as 3.14)
+radius= float(input(Enter the value of radius \n*)
+Area of circle= 3.14(radius**2)
+print(Area of circle)
+
+# Create a program that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number
+a= int(input("Enter first number: \n"))
+b= int(input("Enter third number:"))
+
+if a>b Print("a is greater than b")
+elif a<b print("a is less than b")
+else a=b Print("a is equal to b")
+
+# ternary operator
+a= int(input("First number entered by user\n"))
+b= int(input("Second number entered by user \n"))
+c= int(input("Third number entered by user \n"))
+max_value = (a if a>b and a>c else b if b>c else c)
+print(max_value)
+
+# square and cube of a given number
+a= int(input("Enter value of a "\n))
+square= (a**2)
+cube=(a**3)
+print("Square)
+print("cube)
