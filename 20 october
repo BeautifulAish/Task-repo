@@ -1,0 +1,29 @@
+# Palidrome checker: A palindrome is a word, phrase, number, or another sequence of units that read the
+# same way in either direction - MOM, MADAM
+def palindrome(str1):
+ if string1 == string[::-1]
+  print(f"string" is palindrome)
+ else:
+  print("f{string") is palindrome")
+  else:
+      print(f"{string1} is not palindrome")
+
+str1 = input("Enter a string: ")
+
+is_palindrome(str1)
+
+#Task 2
+#Sum of Digits: Create a function that calculates the sum of the digits of a positive integer.
+n = 12345
+
+
+def getSum(number):
+ add = 0
+ while number != 0:
+  add = add + (number % 10)
+  number = number // 10
+
+ return add
+
+n = int(input("Enter a number to compute sum of digits in number: \n"))
+print("Sum of digits of", n, "is :", getSum(n))
