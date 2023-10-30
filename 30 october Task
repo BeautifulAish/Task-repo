@@ -1,0 +1,47 @@
+# Write a Python program to find the largest number in a l
+lt = [31, 56, 98.45, 57]
+Max = [lt]
+# Write a Python program to find the smallest number in a list
+Min = [lt]
+
+print("Max value in list: ", max(lt))
+print("Min value in list: ", min(lt)
+
+#Write a Python program to find the smallest number in a list.
+List1 = [0,1,4,55,66,77,70,3]
+List1.sort()
+print(List1)
+small = List1[0]
+print(f'Smallest number in the list is {small}')
+max = List1[len(List1)-1]
+print(f'Max number in the list {max}')
+
+##Write a Python program to sum all numbers in a list.
+List1 = [8,21,30,4,3,50,10]
+
+def sum_of_list(n):
+    Sum = 0
+    for i in n:
+        Sum = Sum+i
+    print("Sum of the list is", Sum)
+sum_of_list(List1)
+
+## Write a Python program to multiply all numbers in a list.
+list=[2,4,7,10,12]
+mult=1
+for i in list:
+ mult= mult*i
+print("The multiplication of number is ",mult)
+
+# #Write a Python program to count the number of strings in a list where the string length is 2 or more
+list2 = ["aa","ABC","Ind","AG","123","8","MOM"]
+str=""
+count=0
+for i in list2:
+    if type(i)==type(str) and len(i)>=2 and i[0]==i[-1]:
+        count=count+1
+        # print("yes")
+    # else:
+        # print("not")
+
+print("Total strings : ",count)
