@@ -1,0 +1,29 @@
+# 1. Find the maximum and minimum elements in a tuple
+my_tuple = (15, 8, 25, 36, 42, 10)
+print(max(my_tuple))
+print(min(my_tuple))
+
+#2 Find the intersection and union of two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+print((set1).intersection(set2))
+print((set1).union(set2))
+
+#3 Remove duplicate elements from a list
+def: (Unique_elements)
+my_list = [1, 2, 2, 3, 4, 4, 5]
+print("Unique elements list:", list(Set1))
+unique_element(my_list)
+
+#4 Remove a key-value pair from the dictionary
+my_list = [2, 4, 6, 8, 10, 12, 14]
+a = set(my_list)
+print(a)
+
+#5 Convert to Dict JSON Response and Print and Booking Id AND checkin and Checkout Data
+js=json.dumps(my_data,indent=1)
+
+dict=json.loads(cjs)
+print(dict["bookingid"])
+print(dict["booking"]["bookingdates"]["checkin"])
+print(dict["booking"]["bookingdates"]["checkout"])
