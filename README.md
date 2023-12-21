@@ -1,10 +1,11 @@
 Tech Stack
-Python 3.11
-Requests - HTTP Requests
-PyTest - Testing Framework
-Reporting - Allure Report, PyTest HTML
-Test Data - CSV, Excel, JSON
-Parallel Execution - x distribute
+1.Python 3.11
+2.Requests - HTTP Requests
+3.PyTest - Testing Framework
+4.Reporting - Allure Report, PyTest HTML
+5.Test Data - CSV, Excel, JSON
+6.Parallel Execution - x distribute
+
 How to Install Packages
 pip install requests pytest pytest-html faker allure-pytest jsonschema
 
