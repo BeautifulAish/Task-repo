@@ -1,0 +1,15 @@
+1.
+name=input("enter name :\n")
+print(name)
+
+2. 
+fname=input("enter first name :\n")
+
+lname=input("enter last name :\n")
+
+print(fname,lname,sep="-",end="\t")
+
+3. 
+name=input("enter first name :\n")
+
+print("You are welcome",name,"to the Python Class.")
