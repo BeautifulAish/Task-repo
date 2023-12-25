@@ -9,4 +9,4 @@ def main():
 # If SC != 200 give error, else it will not give error
 
 if __name__ == "__main__":
-    main()
+  main()
